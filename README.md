@@ -10,34 +10,21 @@ TeXstudio is a popular LaTeX editor that is designed to make LaTeX typesetting e
 ## Objectives
 
 This architectural documentation has the following objectives:
-- Identify the stakeholders and provide a power/interest matrix to describe involvement in the system
-- Identify a list of concerns that TeXstudio bases its architecture on
-- Identify an architecural style that TeXstudio operates under
-- Provide a view of the TeXstudio under the Context, Functional, Information and Deployment viewpoints
+- Provide a view of the TeXstudio under the Functional viewpoints
 - Provide a describing model for each view
 - Provide evidence for architectural conformance of the Functional view
 - Identify an architectural perspective that can be applied to the views
-- Provide an architectural critique on aspects of TeXstudio's design that are questionable
 
 ## Scope
 
 The scope of this architectural documentation will be to provide **reliable**, **code-conforming** and **clear** documentation that can be understood and used by developers, contributors, maintainers or acquirers of TeXstudio. This architectural documentation should be useful in writing code, designing features or producing other architectural documentation for the software.  
 
 ## Table of Contents
-1. [Stakeholders](m4/stakeholders.md)
-2. [Perspective](m4/perspective.md)
-3. [Context View](m4/context.md)
-4. [Functional View](m4/functional.md)
-5. [Information View](m4/information.md)
-6. [Deployment View](m4/deployment.md)
-7. [Architectural Critique](m4/critique.md)
+1. [Perspective](perspective.md)
+2. [Functional View](functional.md)
 
 ### Optional Readings
-1. [Functional Scenario](m4/functional_scenario.md)
-
-### Appendix
-1. [Revision Plan](m4/revision.md)
-2. [Presentation Slides](m4/slides.md)
+1. [Functional Scenario](functional_scenario.md)
 
 ## Notes
 
