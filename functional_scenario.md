@@ -13,7 +13,7 @@ Therefore, we would only need to model the Editor (View), the keyPressEvent, the
 Taking this into account, a keyPressEvent only makes use of the Editor (View), the keyPressEvent (Connector), the LaTeX Parser (Controller), the Script Engine (Controller) and the Editor Data (Model). This allows the presenter to avoid describing null interactions between components and allows for the relevant interactions to be less abstract. In fact, a sequence diagram that wants to take everything into account would look as follows:
 
 **Figure 1.** Flawed Sequence Diagram of a keyPressEvent scenario
-![](m3/scenario1-diag1.png)
+![](img/scenario1-diag1.png)
 
 In such a diagram, you can observe that there are abstractions and interactions that are not necessarily required, in particular, the abstraction of GUI (View), the interactions including the Build Manager, and for the sake of simplicity the Persistence was already removed from the diagram. Taking into account what was mentioned earlier about the relevant functional components for such a scenario, we can model the program and its interactions as such.
 
@@ -27,6 +27,6 @@ This model does not include functional elements which are never apart of the con
 
 **Figure 3.** Improved Sequence Diagram of a keyPressEvent scenario
 
-![](m3/scenario1-diag2.png)
+![](img/scenario1-diag2.png)
 
 In general, this tactic allows Architectural Documenters of TeXstudio to increase or decrease abstraction to produce documentation that is closer to the code and provides more relevant information. In the same fashion, developers, especially new-comers in the project, can make use of that documentation to precisely pin-point where the code is located and what it affects.
