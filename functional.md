@@ -9,7 +9,7 @@ The following model is a General Function Structure Model of TeXstudio. It serve
 
 **Figure 1:** General Functional Structure Model of TeXstudio
 
-![](m4/img/final_model.png)
+![](img/final_model.png)
 
 It is important to note that these components aren't a 1:1 mapping to the codebase on the package/class level. We do not concern ourselves with the arbitrary placement of methods into files, but rather look at the responsibility each of those methods hold at the architectural level, and we produce abstract interfaces from them. An example of this is the LaTeX Parser functional component, which isn't limited to the latexparser package in the codebase. In particular, the LaTeX parser functional component includes syntaxcheck.cpp and inherits from the qcodeedit package to give the proper formatting to the Editor Data.
 
