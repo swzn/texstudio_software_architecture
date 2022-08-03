@@ -10,15 +10,15 @@ The main concerns that will be covered are **simplicity**, **consistency** and *
 
 **Figure 1.** Snippet of the default toolbar
 
-![](m4/img/toolbar_1.png)
+![](img/toolbar_1.png)
 
 **Figure 2.** Toolbar customization interface
 
-![](m4/img/toolbar_2.png)
+![](img/toolbar_2.png)
 
 **Figure 3.** Shortcuts customization interface
 
-![](m4/img/toolbar_3.png)
+![](img/toolbar_3.png)
 
 - Information View: Although only slightly applicable, it is worth mentioning that the user's participation in the information flow of TeXstudio is nearly inexistent, at least for common uses. This is an obvious, yet important concern because, without loading and saving files, TeXstudio would not be able to provide any type of relevant functionality to users. Loading a tex file into TeXstudio is extremely simple through the user-interface and requires no configuration. Likewise, compiling and saving the output of a tex file is done by the press of a button. 
 
@@ -26,9 +26,9 @@ The main concerns that will be covered are **simplicity**, **consistency** and *
 
 **Figure 4.** Installation instructions on texstudio.org
 
-![](m4/img/installation_1.png)
+![](img/installation_1.png)
 
-![](m4/img/installation_2.png)
+![](img/installation_2.png)
 
 
 ## Consistency
@@ -39,7 +39,7 @@ The main concerns that will be covered are **simplicity**, **consistency** and *
 
 **Figure 5.** Build settings customization interface
 
-![](m4/img/compile_1.png)
+![](img/compile_1.png)
 
 - Deployment View: TeXstudio must be able to be deployed on Windows/MacOS/Linux. In fact, the [user manual](https://htmlpreview.github.io/?https://github.com/texstudio-org/texstudio/master/utilities/manual/usermanual_en.html#SECTION0) mentions no functional differences between deployments of TeXstudio on the distinct operating systems it supports. There are small differences in terms of command line and file system semantics, those, however, are out of scope for TeXstudio as they are simply due to the different shells and registries that are available on Windows / MacOS / Linux. 
 
@@ -49,4 +49,4 @@ Note that efficiency here does not only relate to how _fast_ does TeXstudio run 
 
 - Functional View: The main concern here is that the UI must be efficient in terms of providing functionality to the user. We define an "efficient UI" as one that can be tweaked to the fit the user's needs as per the user's request. TeXstudio achieves this in two ways: (1) it allows the user to customize the UI, configure how it functions/looks and establish shortcuts; and (2) TeXstudio is open to [bug reports](https://github.com/texstudio-org/texstudio/labels/bug) and [enhancements](https://github.com/texstudio-org/texstudio/labels/enhancement). The first one allows the user to decide how they want to use the software and can make the most out of it to boost their efficiency. The second one allows the user to provide feedback to the developer to get more features or to fix/change existing features. In general, this is due to the simplicity of implementing a UI element. Once the feature for a UI element is fully coded, it is as simple as dedicating a position in the GUI to host that UI element, and the user is free to utilize it. The tactic that is used to make this possible is by separating the UI element's functionality from its display. This allows the user to move the display, and the developers to modify the functionality, both without affecting the other.
 
-- Information View: The main concern is that compile times and information flow of the software must be quick and efficient. This is out of scope for TeXstudio as compiling the tex file is done by the LaTeX distribution, thus TeXstudio is only concerned with providing information to the compiler in a quick fashion that can be easily modified through future updates. In fact, the tactic used here is the streamlining of the data that is presented in the [Information View](m4/information.md)
+- Information View: The main concern is that compile times and information flow of the software must be quick and efficient. This is out of scope for TeXstudio as compiling the tex file is done by the LaTeX distribution, thus TeXstudio is only concerned with providing information to the compiler in a quick fashion that can be easily modified through future updates.
