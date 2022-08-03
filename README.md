@@ -1,6 +1,6 @@
 # TeXstudio
 
-This architectural documentation of [TeXstudio](https://www.texstudio.org/) serves to provide a rigorous architectural description of the open-source software as a result of the study conducted on the software.
+This architectural documentation of [TeXstudio](https://www.texstudio.org/) serves to provide a rigorous architectural description of the open-source software as a result of the study conducted on the software. It is part of a team project for the "COMP 529: Software Architecture" class at McGill University at displays my contribution to the project.
 
 ## Introduction to TeXstudio
 
